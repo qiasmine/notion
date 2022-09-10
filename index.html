@@ -6,7 +6,7 @@
         display: flex;
         font-family: sans-serif;
         font-size: 18pt;
-        color: #cc6666;
+        color: #ff5757;
         padding: 5px;
         border: 1px solid #ffffff;
         justify-content: left;
@@ -58,11 +58,11 @@
     var greet;
 
     if (hrs < 12)
-        greet = <i>'good morning, liya!  '</i>;
+        greet = 'good morning, your name.  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = <i>'good afternoon, liya! '</i>;
+        greet = 'good afternoon, your name. ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = <i>'good evening, liya!  '</i>;
+        greet = 'good evening, your name.  ';
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
