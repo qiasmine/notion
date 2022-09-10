@@ -49,7 +49,7 @@
       "july", "august", "september", "october", "november", "december"
     ];
     
-    const time = hours + ":" + minutes;
+    
 
     
     var today = new Date();
@@ -58,6 +58,8 @@
     var minutes = today.getMinutes();
     var minute = minutes < 10 ? "0" + minutes : minutes;
     var dayOfWeek = weekday[today.getDay()];
+    
+    const time = hours + ":" + minutes;
     
     
     var date = `${time}, ${dayOfWeek}, ${monthNames[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
