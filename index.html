@@ -57,10 +57,10 @@
     
     var today = new Date();
     var hours = today.getHours();
-    var hour = hours < 10 ? "0" + hours : hours;
     var minutes = today.getMinutes();
-    var minute = minutes < 10 ? "0" + minutes : minutes;
     var dayOfWeek = weekday[today.getDay()];
+    var hour = hours < 10 ? "0" + hours : hours;
+    var minute = minutes < 10 ? "0" + minutes : minutes;
     
     const time = hours + ":" + minutes;
     
