@@ -61,11 +61,8 @@
     var dayOfWeek = weekday[today.getDay()];
     var hour = hours < 10 ? "0" + hours : hours;
     var minute = minutes < 10 ? "0" + minutes : minutes;
-    if (minutes < 10){
-            "0" + minutes
-    }
-    else{
-    }
+    if (i < 10){i = '0' + 1};
+    return i;
     
     const time = hours + ":" + minutes;
     
